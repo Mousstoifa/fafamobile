@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande de Devis</title>
+    <link rel="stylesheet" href="/assets/css/devis.css"> <!-- Ajout du CSS spécifique pour la section Devis -->
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <a href="index.html"><img src="/assets/img/logo.jpeg" alt="Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Vidéos et réseaux sociaux</a></li> 
+                <li><a href="#">Smartphones neuf</a></li>
+                <li><a href="#">Devis en ligne</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="devis">
+    <div class="container">
+        <h2>Demandez Votre Devis en Ligne</h2>
+        <form action="submit-devis.php" method="POST">
+            <div class="form-group">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Téléphone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="model">Modèle de Téléphone:</label>
+                <select id="model" name="model" required>
+                    <option value="iPhone 13">iPhone 13</option>
+                    <option value="iPhone 12">iPhone 12</option>
+                    <option value="Samsung Galaxy S21">Samsung Galaxy S21</option>
+                    <option value="Samsung Galaxy S20">Samsung Galaxy S20</option>
+                    <option value="Huawei P30">Huawei P30</option>
+                    <option value="Huawei P20">Huawei P20</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="issue">Problème Rencontré:</label>
+                <textarea id="issue" name="issue" rows="4" required></textarea>
+            </div>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>©2024 LA FAFA MOBILE. Tous droits réservés.</p>
+    </div>
+</footer>
+
+</body>
+</html>

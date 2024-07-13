@@ -1,0 +1,70 @@
+/* Devis Section */
+.devis {
+    padding: 50px 0;
+    background: #fff;
+    border-top: 1px solid #ddd;
+  }
+  
+  .devis .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .devis h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #444;
+    text-align: center;
+    letter-spacing: 1.5px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: #f4c434e4;
+    box-shadow: 0 0 5px rgba(244, 196, 52, 0.5);
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    background: #f4c434e4;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+  
+  button[type="submit"]:hover {
+    background: #e6b400;
+    transform: translateY(-2px);
+  }
+  
